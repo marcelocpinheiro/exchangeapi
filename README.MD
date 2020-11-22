@@ -12,6 +12,7 @@ composer install
 - Make sure that the .env file is present. If its not, just create one on the application root and put this line inside it. You can put any currency you want, just remember that it must exist (duh) and separate them with a comma, just like the above line
 ```sh
 CURRENCIES=GBP,USD,BRL
+BASEURL=https://api.exchangeratesapi.io
 ```
 - Then serve the application (you can use any server. Here, we are using the built-in php development server)
 ```sh
