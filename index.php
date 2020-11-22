@@ -1,9 +1,5 @@
 <?php
 
-//REMOVE THIS
-ini_set('error_reporting', E_ALL);
-
-
 //Core
 require_once "./vendor/autoload.php";
 include_once "./core/Router.php";
