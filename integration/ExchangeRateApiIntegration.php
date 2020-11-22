@@ -5,7 +5,7 @@ class ExchangeRateApiIntegration {
     private $client;
 
     public function __construct() {
-        $this->client = new GuzzleHttp\Client(['base_uri' => 'https://api.exchangeratesapi.io']);
+        $this->client = new GuzzleHttp\Client(['base_uri' => $_ENV['BASEURL']]);
     }
     
     public function latestRates() {
